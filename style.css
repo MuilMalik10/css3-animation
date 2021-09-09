@@ -1,0 +1,44 @@
+/* 
+  scale(angka), skew(deg), rotate(deg), translate(px)
+*/
+
+.lingkaran {
+  width: 50px;
+  height: 50px;
+  margin: 50px auto 0;
+  background-color: aqua;
+  border-radius: 50%;
+  animation: loading 3s ease-out infinite;
+  /* transition: .5s cubic-bezier(0.23, -0.51, 1, 1.65); */
+}
+
+/* .lingkaran::cue() {
+  width: 100px;
+  height: 100px;
+} */
+
+@keyframes loading {
+  0% {
+    background-color: aqua;
+  }
+
+  20% {
+    background-color: yellow;
+  }
+
+  40% {
+    background-color: salmon;
+  }
+
+  60% {
+    background-color: green;
+  }
+
+  80% {
+    background-color: hotpink;
+  }
+
+  100% {
+    background-color: aqua;
+  }
+}
